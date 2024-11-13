@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding: 0 0 15px;
+}
+
+h1 > span {
+  color: hsl(39, 100%, 71%);
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 18px;
+}
+
+em {
+  font-style: italic;
+}
+
+.Purple100 {
+  background: hsl(254, 88%, 90%);
+  border-radius: 16px;
+}
+.Purple500 {
+  background: hsl(256, 67%, 59%);
+  border-radius: 16px;
+}
+.Yellow100 {
+  background: hsl(31, 66%, 93%);
+  border-radius: 16px;
+}
+.Yellow500 {
+  background: hsl(39, 100%, 71%);
+  border-radius: 16px;
+}
+.fffBg {
+  background: #ffff;
+  border-radius: 16px;
+}
+
+.allItemsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.bentoGridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row-reverse;
+  gap: 20px;
+  padding: 20px;
+  background: hsl(0, 0%, 96%);
+}
+
+.bentoGrid {
+  display: grid;
+  gap: 20px;
+}
+
+.topRightBentoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.leftTopRightBentoGrid {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mainHeadline {
+  width: 500px;
+  height: 300px;
+  padding: 2rem;
+  background-color: #6b47dc;
+  color: #ffffff;
+  text-align: center;
+}
+
+.mainHeadline > img {
+  width: 190px;
+}
+
+.mainHeadline > p {
+  color: hsl(31, 66%, 93%);
+}
+
+.accountManagingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.accountManaging {
+  width: 240px;
+  height: 260px;
+  padding: 19px;
+  overflow: hidden;
+}
+
+.accountManaging > img {
+  width: 270px;
+}
+
+.consistentPosting {
+  width: 240px;
+  height: 260px;
+  padding: 19px;
+  overflow: hidden;
+}
+
+.consistentPosting > img {
+  width: 200px;
+}
+
+.rightTopRightBentoGrid {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 230px;
+  height: 580px;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.rightTopRightBentoGrid > img {
+  width: 330px;
+}
+
+.bottomRightBentoGrid {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.growFollowers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  width: 490px;
+  height: 190px;
+  padding: 24px;
+}
+
+.growFollowers > img {
+  width: 200px;
+}
+
+.audienceGrowthRate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 240px;
+  height: 190px;
+  padding: 30px 24px;
+}
+
+.audGrowthRatePercent {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.audienceGrowthRate > img {
+  width: 140px;
+}
+
+.topLeftBentoGrid {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  width: 230px;
+  height: 380px;
+  padding: 24px;
+}
+
+.topLeftBentoGridQuicker {
+  color: hsl(256, 67%, 59%);
+}
+
+.topLeftBentoGrid > img {
+  width: 170px;
+}
+
+.bottomLeftBentoGrid {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  width: 230px;
+  height: 390px;
+  padding: 24px;
+}
+
+.bottomLeftBentoGrid > img {
+  width: 195px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: hsl(0, 0%, 96%);
+    padding: 30px 20px;
+  }
+
+  .allItemsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .bentoGridContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .mainHeadline {
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    background-color: #6b47dc;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .accountManaging {
+    width: 100%;
+    height: max-content;
+    padding: 19px;
+    overflow: hidden;
+  }
+
+  .accountManaging > img {
+    width: 340px;
+  }
+
+  .consistentPosting {
+    width: 100%;
+    height: max-content;
+    padding: 19px;
+    overflow: hidden;
+  }
+
+  .consistentPosting > img {
+    width: 300px;
+    padding-top: 10px;
+    margin-bottom: -24px;
+  }
+
+  .rightTopRightBentoGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    height: max-content;
+  }
+
+  .rightTopRightBentoGrid > img {
+    width: 330px;
+  }
+
+  .growFollowers {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #fff;
+    width: 100%;
+    height: max-content;
+  }
+
+  .growFollowers > img {
+    width: 300px;
+  }
+
+  .audienceGrowthRate {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: max-content;
+    padding: 24px;
+  }
+
+  .audGrowthRatePercent {
+    font-size: 50px;
+    display: grid;
+    font-weight: 500;
+  }
+
+  .audienceGrowthRate > img {
+    width: 160px;
+  }
+
+  .topLeftBentoGrid {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: max-content;
+    padding: 24px;
+  }
+
+  .bottomLeftBentoGrid {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: max-content;
+  }
+
+  .bottomLeftBentoGrid > img {
+    width: 195px;
+  }
+}
